@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "iostream": "cpp"
-    },
-    "code-runner.executorMap": {
-        "cpp": "outdir=$(echo ${relativeFileDirname} | sed 's:^src/::; s:^src$::') && mkdir -p $workspaceRoot/bin/$outdir && g++ $fullFileName -o $workspaceRoot/bin/$outdir/$fileNameWithoutExt && $workspaceRoot/bin/$outdir/$fileNameWithoutExt"
-    }
-}
