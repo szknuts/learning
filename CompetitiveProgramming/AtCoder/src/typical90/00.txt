@@ -3,11 +3,11 @@ https://atcoder.jp/contests/typical90/tasks
 解く→ 解説見る→ 典型的なパターンを覚える
 
 # ★2
-04 OK 前計算 でループを減らす
-10 OK 累積和 でループを減らす
-22
-24
-27
+04 OK 前計算
+10 OK 累積和
+22 OK 公約数
+24 OK 偶/奇
+27 OK map (O(log N))
 33
 55
 61
