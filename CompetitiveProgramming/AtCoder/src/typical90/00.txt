@@ -7,10 +7,10 @@ https://atcoder.jp/contests/typical90/tasks
 10 OK 累積和
 22 OK 公約数
 24 OK 偶/奇
-27 OK map (O(log N))
-33
-55
-61
+27 OK map (データ構造)
+33 OK 例外
+55 ?? OF, 力技
+61 
 67
 78
 
