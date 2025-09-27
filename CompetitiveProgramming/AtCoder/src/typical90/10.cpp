@@ -1,3 +1,10 @@
+/*
+累積和
+l から r までの要素の総和は累積和を使って簡単に求められる
+1. 前の総和+自分 の vector SUM を作る
+SUM[r] - SUM[l-1] で l から rの総和
+l が 0 の場合 l-1ができないので，[0]を作っておく
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int main()
