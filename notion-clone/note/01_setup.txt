@@ -1,0 +1,22 @@
+npm create vite@latest
+    framework→React, variant→TypeScript
+    project name のフォルダができる
+    ついでにローカルでサーバが立ち上がった
+    vite：フロントエンドビルドツール
+
+npx shadcn@latest init
+
+    tailwindow関係のセットアップをする
+
+npm run dev
+    ローカルのサーバが立ち上がる
+    これで確認できる
+
+---
+
+npm：node package manager
+    パッケージの管理
+npx：node package executer
+    パッケージの実行
+
+

@@ -1,0 +1,14 @@
+npm install react-router-dom react-textarea-autosize
+
+<BrowserRouter>
+    ルーティング全体の管理．URLの変化を監視し，表示するコンポーネントを選択
+<Routes>
+    <Route>の集合 マッチするRouteを探して表示
+<Route>
+    pathでパスを設定
+    elementでpathにマッチしたときに表示したいコンポーネントを設定
+
+コンポーネント：
+    .tsxで書かれているHTML?
+
+Routeの中のRouteは、上のRouteのコンポーネントの<Outlet>に下のRouteのコンポーネントが組み込まれる
