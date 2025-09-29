@@ -1,0 +1,7 @@
+{
+  "rust-analyzer.cargo.target": "x86_64-unknown-uefi",
+
+  "rust-analyzer.checkOnSave.overrideCommand": [
+    "cargo", "check", "--target", "x86_64-unknown-uefi"
+  ]
+}
