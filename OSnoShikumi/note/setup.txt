@@ -1,0 +1,11 @@
+qemu make clang nc rust
+
+rustup target add x86_64-unknown-uefi
+cargo build --target x86_64-unknown-uefi
+    .efi ができる
+    mnt/EFI/BOOT/ にcp
+
+qemu-system-x86_64 
+    -bios third_party/ovmf/RELEASEX64_OVMF.fd 
+    -drive format=raw,file=fat:rw:mnt
+    これで起動
