@@ -9,6 +9,6 @@ npm install react-router-dom react-textarea-autosize
     elementでpathにマッチしたときに表示したいコンポーネントを設定
 
 コンポーネント：
-    .tsxで書かれているHTML?
+    tsにおいて、UIなどを構成するための部品
 
 Routeの中のRouteは、上のRouteのコンポーネントの<Outlet>に下のRouteのコンポーネントが組み込まれる

@@ -1,0 +1,34 @@
+src/lib/supabase.ts
+src/pages/signup.tsx
+src/modules/auth/auth.repositry.ts
+
+---
+
+supabase でプロジェクトを作成
+npm install @supabase ~
+
+認証の設定
+supabase > project > authentication > sign in ~
+
+API とか
+supabase > project settings > Data api , API Keys
+直書きせずに環境変数を使う方が良い
+
+---
+
+signup
+
+auth~.ts
+    signup()
+singup.tsx
+    signup()とHTMLをいじった
+
+
+---
+
+signin
+
+auth~.ts
+    signin()
+signin.tsx
+    signup(), html
