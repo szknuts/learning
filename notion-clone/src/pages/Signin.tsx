@@ -1,16 +1,19 @@
 import { authRepository } from "@/modules/auth/auth.repository";
+import { useCurrentUserStore } from "@/modules/auth/current-user.state";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 function Signin() {
   //emailがstate変数、setEmailがセッター 後ろは初期値
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const currentUser = useCurrentUserStore();
 
   const signin = async () => {
     const user = await authRepository.signin(email, password);
-    console.log(user);
+    currentUser.set(user);
   };
+  if (currentUser.currentUser != null) return <Navigate replace to="/" />;
 
   return (
     <div className="min-h-screen bg-gray-100 py-10 px-4 sm:px-6 lg:px-8">

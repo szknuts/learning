@@ -1,0 +1,22 @@
+src/modules/auth/current-user.state.ts
+---
+
+localstate：基本的にコンポーネント内で使える。受け渡しをすれば他でも使える
+globalState：app全体で使える
+
+jotai
+    npm install jotai
+    react状態管理ライブラリの一つ
+
+atomでglobalStateを定義できる
+    export const userAtom = atom("jon");
+atomを使う
+    layout.tsx, signup.tsx, signin.tsx
+    auth.repository.ts getCurrentUser()
+
+--
+
+atomでglobalstateを定義して、
+ゲッター(?)定義して、
+コンポーネント内で取得して、
+うまいこと使う
