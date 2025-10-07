@@ -1,0 +1,10 @@
+print()をしたい
+
+efi_main()の 第2引数 から EFI System Table のアドレスを取得
+その中に locate_protocol() がある
+UEFI仕様書に EFI Graphics Output Protocol に対応するGUIDが定義されている
+このGUIDを locate_protocolに渡し、EFI Graphics Output Protocolへのポインタを取得
+それの構造体内にフレームバッファのアドレスなどが書かれている
+それを使い画面に図形などを描ける
+
+
