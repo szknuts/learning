@@ -1,0 +1,27 @@
+supabase > ≡ > table edtor > create a new table
+
+
+RLS：ルール
+    ログインをしないとノートを作れない
+    自分のノートしか見れない …
+
+add RLS policy > create policy ~>
+
+
+ノートの作成、DB
+
+modules/notes/note.repository.ts
+modules/notes/note.entity.ts
+modules/notes/note.state.ts
+pages/home.tsx
+components/SideBar/index.tsx
+
+
+
+
+supabaseの型の生成
+
+npx supabase login
+
+npx supabase gen types --lang=typescript
+ --project-id "mgktrrawnurccmnpaest" --schema public > database.types.ts
