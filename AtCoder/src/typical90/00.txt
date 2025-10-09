@@ -18,13 +18,13 @@ https://atcoder.jp/contests/typical90/tasks
 02 OK ● bit全探索、bit演算
 07 OK ● 二分探索
 14 OK ez sort? 貪欲法
-16 OK OF、ループ減らす
+16 OK ループ減らす、OF
 18 OK ● 少数桁、三角関数
 20 OK pow()は内部がdoubleなので誤差が出る
 32 OK 順列全探索next_permutation、いらんのスキップ
-38
-44
-46
+38 OK 最小公倍数 数学
+44 OK 典型 回転
+46 OK ループ減らす 工夫
 48
 50
 52
